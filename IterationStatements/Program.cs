@@ -12,10 +12,11 @@ namespace IterationStatements
 
                 //Create a List called "numbers" - DONE!
                 var numbers = new List<int>();
-            
+
             //-----START HERE------------------------------------------
             //Create a variable of type int and name it num
             //initialize the variable with a value of 0
+            int num = 0;
 
 
 
@@ -23,10 +24,16 @@ namespace IterationStatements
 
             {
                 // Increment num by 1
-
                 // Then add num to the collection - numbers
                     // Hint: reference num inside of the Add method's parentheses
                 numbers.Add(/* num */);
+
+                int num = i;
+                do
+                {
+                    i++
+                } while (if < 100) ;
+
 
             } // <---- While your variable is less than 100
 
